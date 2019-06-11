@@ -41,7 +41,6 @@ height: 100vh;
     color: #fff;
     text-align: left;
     font-family: 'Satisfy', cursive;
-    fo
 }
 
 
@@ -54,4 +53,28 @@ height: 100vh;
     text-transform: uppercase;
     text-align: left;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media screen and (max-width: 600px){
+    #one {
+        margin-top: 5vh;
+        padding-left: 5vh;
+    }
+    #one h2 {
+        font-size: 25px;
+    }
+    #one h1 {
+        font-size:50px;
+    }
+
+    #one p {
+        margin-top: 10vh;
+        font-size: 30px;
+    }
+    #name {
+        bottom:2vh;
+        right: 5vw;
+        font-size: 20px;
+    }
+
 }
